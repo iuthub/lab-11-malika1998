@@ -3,8 +3,6 @@
 	<head>
 		<title>Pimp My Text!</title>
 		<link href="pimpmytext.css" rel="stylesheet" type="text/css" />
-		<!-- link to your script file here -->
-
 	</head>
 
 	<body>
@@ -13,7 +11,53 @@
 			<img src="geek.jpg" alt="Pimpin' it, geek!" />
 		</div>
 
-		<!-- Your UI controls go here -->
+		<fieldset>
+			<legend>Text</legend>
+			<textarea name="text" id="text" cols="30" rows="4"></textarea>
+		</fieldset>
 
+		<fieldset>
+			<legend>Pimpification</legend>
+			<div>
+				<button onclick="changeFontSize();">Bigger Pimpin'!</button>
+			</div>
+			<div>
+				<input type="checkbox" name=chbBling id="chbBling" onclick="changeTextStyle();">
+				<label for="chbBling">Bling</label>
+			</div>
+			<div>
+				<button onclick="snoopify();">Snoopify</button>
+			</div>
+		</fieldset>
+
+		<!-- Calculator -->
+		<!-- <section>
+			<div class=”calculator”>
+				<div class=”calculator-display”>0</div>
+				<div class=”calculator-keys”>
+					<button class="key-operator" data-action="add">+</button>
+					<button class="key-operator" data-action="subtract">-</button>
+					<button class="key-operator" data-action="multiply">&times;</button>
+					<button class="key-operator" data-action="divide">÷</button>
+					<button>7</button>
+					<button>8</button>
+					<button>9</button>
+					<button>4</button>
+					<button>5</button>
+					<button>6</button>
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+					<button>0</button>
+					<button data-action="decimal">.</button>
+					<button data-action="clear">AC</button>
+					<button class="key-equal" data-action="calculate">=</button>
+				</div>
+			</div>
+		</section> -->
+
+
+		<!-- JS inject -->
+		<script src="pimpmytext.js"></script>
 	</body>
 </html>

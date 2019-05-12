@@ -26,3 +26,16 @@ textarea {
 	font-family: monospace;
 	font-size: 12pt;
 }
+
+/* if chbBling is checked */
+.textStyled {
+	font-weight: bold;
+	color: green;
+	text-decoration: underline;
+	font-style: italic;
+	letter-spacing: 5px;
+}
+
+/* .calculator-keys { 
+  display: grid; 
+} */
